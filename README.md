@@ -7,17 +7,15 @@ Root public developer site for Versa Player.
 - Developer website root: `https://marco-god.github.io/`
 - Legal documentation: `https://marco-god.github.io/versa-player-legal/`
 - Support/privacy contact: `marcogod.contact@gmail.com`
-- Future AdMob app-ads.txt location: `https://marco-god.github.io/app-ads.txt`
+- AdMob app-ads.txt: `https://marco-god.github.io/app-ads.txt`
 
 ## app-ads.txt
 
-Do **not** create a production `app-ads.txt` entry until the real AdMob Publisher ID is available.
+Production entry configured for Versa Player using the real AdMob Publisher ID.
 
-When AdMob provides the official line, add it at the repository root exactly as supplied, typically in the form:
+`google.com, pub-3728006520660959, DIRECT, f08c47fec0942fa0`
 
-`google.com, pub-REAL_PUBLISHER_ID, DIRECT, f08c47fec0942fa0`
-
-Never commit a fabricated or placeholder publisher ID as the active production file.
+Keep this file at the repository root so AdMob can crawl it from the developer website hostname.
 
 ## GitHub Pages
 
